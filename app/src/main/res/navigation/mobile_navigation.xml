@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="diana.padilla.laboratoriopracticadiana.ui.home.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="diana.padilla.laboratoriopracticadiana.ui.dashboard.DashboardFragment"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="diana.padilla.laboratoriopracticadiana.ui.notifications.NotificationsFragment"
+        android:label="Información"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/fragment_contactanos"
+        android:name="diana.padilla.laboratoriopracticadiana.fragment_contactanos"
+        android:label="Contactanos"
+        tools:layout="@layout/fragment_contactanos" />
+</navigation>

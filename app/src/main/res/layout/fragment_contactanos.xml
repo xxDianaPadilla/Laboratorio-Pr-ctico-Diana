@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_contactanos">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:fontFamily="@font/chicle"
+        android:text="Haz Clic"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="140dp"
+        android:textColor="#9C27B0"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/btnCorreo"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="350dp"
+        android:padding="15dp"
+        android:text=" Click Me" />
+
+    <TextView
+        android:id="@+id/txtCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="550dp"
+        android:hint=""
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+
+</FrameLayout>
